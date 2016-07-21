@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>I Love 80's Music</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="banner-section">
+        <h1 class="heading">
+            </h1>
+    </header>
+    <section class="start-section" style="display: block;">
+        <h2 class="text"> Do you know your 80's Music??</h2>
+        <p class="text">Let's take this quiz to test your knowledge!
+        </p>
+        <button class="start-button" id="startQuizButton">Start</button>
+    </section>
+    <section class="quiz-section" style="display: none;">
+        <div id="question_wrapper">
+            <h1 class="text" id="question">"Sucking on chili dogs outside the Tasti-Freeze"
+
+                ...was John Cougar Mellencamp's idea of a date back in 1982. In what number one classic did he try to "dribble off those Bobby Brooks" so he could do what he pleased?</h1>
+            <div id="choices">
+                <input class="option" type="radio" value="0" name="Pink Houses">
+                <br>
+                <input class="option" type="radio" value="1" name="Jack and Diane">
+                <br>
+                <input class="option" type="radio" value="2" name="Summer of 69">
+                <br>
+            </div>
+        </div>
+        <div class="question-number" id="questionNumberDisplay">Question 1 of 10</div>
+    </section>
+    <section class="result-section" style="display: none;">
+        <h2 class="text"> Final Score </h2>
+        <h3 id="finalScore">10/10</h3>
+        <div id="result_msg"></div>
+        <button class="start-button" id="tryagain"><span>"Bummer! Better Luck Next Time!"</span> Try Again</button>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
